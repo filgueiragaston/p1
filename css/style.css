@@ -1,0 +1,190 @@
+/* reset */
+*{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.menu ul li{
+    background-color: rgb(141, 117, 117);
+
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    z-index: 2;
+    font-weight: bold;
+    
+}
+
+/* propiedades del menu */
+.header{
+    background-color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+}
+
+/* propiedades del titulo */
+.titulo{
+    text-align: center;
+    padding: 5px;
+}
+
+/* Propiedades del logo*/
+header div img{
+    width: 60%;
+}
+
+/* propiedades main index */
+main{
+    background-color: rgb(151, 95, 55);
+    margin: 5px;
+    padding: 10px;
+}
+
+.parrafo1{
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: solid bold black;
+}
+.parrafo2{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.parrafo3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* propiedades del footer */
+
+footer{
+    background-color: rgb(120, 58, 58);
+    margin: 5px;
+    padding: 10px;
+}
+footer h2{
+    text-align: center;
+    text-decoration: solid;
+    
+}
+
+.img1{
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img2{
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* propiedades formulario de contacto */
+.form{
+    margin: 30px;
+}
+
+.divContact{
+    margin: 10px;
+}
+/* propiedades index nosotros */
+.nosotrosH1{
+    text-align: center;
+}
+.imgNos{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.parrafoNos{
+    margin: 30px;
+    font-size: 1.2rem;
+}
+
+/* propiedades ubicacion */
+
+.ubiH1{
+    text-align: center;
+}
+.mapa{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.parrafoUbi{
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* nosotros index */
+
+
+
+/* propiedades del index imagenes */
+.mainImg{
+    margin: 30px;
+}
+.h1Img{
+    text-align: center;
+    font-weight: bold;
+    margin: 2px;
+    padding: 5px;
+    
+}
+.imgCampo{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.campoImg{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.videos{
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* propiedades index contacto */
+.h1Cont{
+    text-align: center;
+}
+
+.imgContact{
+    display: flex;
+    justify-content: center;
+}
+.formu{
+    width: 400px;
+    
+}
+.divContact{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.form{
+    width: 350px;
+}
+.real{
+    display: flex;
+    justify-content: center;
+}
