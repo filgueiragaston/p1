@@ -91,7 +91,7 @@ footer h2{
 }
 
 .img2{
-    margin: 50px 50px 50px 50px;
+    
     display: flex;
     justify-content: center;
 }
@@ -312,8 +312,8 @@ footer{
         width: 50%;
     }
     .img2{
-        width: 25%;
-        height: 25%;
+        margin: 0%;
+        
     }
     body{
         margin: 1px;
@@ -341,9 +341,11 @@ footer{
         display: none;
 
     }
-    .img1{
-        width: 25%;
-        height: 25%;
+    .imgInd{
+        width: 80%;
+    }
+    .imgInd2{
+        width: 100%;
     }
     footer{
        width: 50%;
