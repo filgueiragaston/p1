@@ -4,6 +4,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
+ /* propiedades del menu */
 .menu ul li{
     background-color: rgb(141, 117, 117);
 
@@ -15,7 +16,7 @@
     
 }
 
-/* propiedades del menu */
+
 .header{
     background-color: rgb(0, 0, 0);
     margin: 5px;
@@ -35,6 +36,7 @@ header nav ul{
 header nav ul li a{
     text-decoration: none;
 }
+
 
 /* propiedades del titulo */
 .titulo{
@@ -187,4 +189,108 @@ footer h2{
 .real{
     display: flex;
     justify-content: center;
+}
+/* GRID INDEX */
+body{
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+    grid-template-areas: "header"
+                         "titulo"
+                         "parrafo1"
+                         "img1"
+                         "parrafo2"
+                         "img2"
+                         "parrafo3"
+                         "footer";
+}
+header{
+    grid-area: header;
+}
+.titulo{
+    grid-area: titulo;
+}
+.parrafo1{
+    grid-area: parrafo1;
+}
+.img1{
+    grid-area: img1;
+}
+.parrafo2{
+    grid-area: parrafo2;
+}
+.img2{
+    grid-area: img2;
+}
+.parrafo3{
+    grid-area: parrafo3;
+}
+footer{
+    grid-area: footer;
+}
+
+/* GRID INDEX IMAGENES */
+.bodyIndex{
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+    grid-template-areas: "header"
+                         "h1Img"
+                         "imgCampo"
+                         "campoImg"
+                         "videos"
+                         "footer";
+}
+.h1Img{
+    grid-area: h1Img;
+}
+.imgCampo{
+    grid-area: imgCampo;
+}
+.campoImg{
+    grid-area: campoImg;
+}
+.videos{
+    grid-area: videos;
+}
+
+/* GRID INDEX NOSOTROS */
+.bodyNos{
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+    grid-template-areas: "header"
+                         "nosotrosH1"
+                         "parrafoNos"
+                         "imgNos"
+                         "footer";
+}
+.nosotrosH1{
+    grid-area: nosotrosH1;
+}
+.parrafoNos{
+    grid-area: parrafoNos;
+}
+.imgNos{
+    grid-area: imgNos;
+}
+/* GRID INDEX UBI */
+.bodyUbi{
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+    grid-template-areas: "header"
+                         "ubiH1"
+                         "mapa"
+                         "parrafoUbi"
+                         "footer";
+}
+.ubiH1{
+    grid-area: ubiH1;
+}
+.mapa{
+    grid-area: mapa;
+}
+.parrafoUbi{
+    grid-area: parrafoUbi;
 }
